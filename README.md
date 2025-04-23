@@ -61,6 +61,20 @@ Key improvements:
 6. Included workflow examples
 7. Enhanced future roadmap section
 
+File Name            | Type       | Role / Description
+Main.java            | Frontend   | Starts the app, opens AuthFrame
+AuthFrame.java       | Frontend   | Main login/signup window
+AdminLoginPanel.java | Frontend   | GUI for Admin login
+AdminPanel.java      | Frontend   | Admin dashboard
+DonorPanel.java      | Frontend   | Donor dashboard
+ReceiverPanel.java   | Frontend   | Receiver dashboard
+HistoryPanel.java    | Frontend   | GUI for donation/request history
+Donor.java           | Backend    | Donor data model
+Receiver.java        | Backend    | Receiver data model
+Donation.java        | Backend    | Donation record model
+Request.java         | Backend    | Receiver request model
+FileHandler.java     | Backend    | Reads/writes objects from/to file
+
 
 ┌───────────────────────┐
 │       Main Class       │
