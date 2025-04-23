@@ -91,25 +91,18 @@ FileHandler.java     | Backend    | Reads/writes objects from/to file
 ┌───────────────────────┐
 │       Main Class       │
 └──────────┬────────────┘
-
            │
            ▼
-           
 ┌───────────────────────┐
 │      AuthFrame        │
 │ (Authentication GUI)  │
 └──────────┬────────────┘
-
            │
            ├───────────────────────────────┐
            ▼                               ▼
-           
 ┌───────────────────────┐    ┌───────────────────────┐
-
 │     SignInPanel       │    │     SignUpPanel       │
-
 │ (Login Interface)     │    │ (Registration Form)   │
-
 └──────────┬────────────┘    └──────────┬────────────┘
            │                             │
            ▼                             ▼
@@ -117,36 +110,27 @@ FileHandler.java     | Backend    | Reads/writes objects from/to file
 │       User            │◄───┤    FileHandler        │
 │ (Base User Class)     │    │ (Data Persistence)    │
 └──────────┬────────────┘    └──────────┬────────────┘
-
            │                             ▲
            ├──────────────┐              │
            ▼              ▼              │
-
-           
 ┌───────────────────────┐ ┌───────────────────────┐
 │       Donor          │ │      Receiver         │
 │ (Donor Subclass)     │ │ (Receiver Subclass)   │
 └──────────┬────────────┘ └──────────┬────────────┘
-
            │                         │
            ▼                         ▼
-           
 ┌───────────────────────┐ ┌───────────────────────┐
 │    DonorPanel        │ │    ReceiverPanel      │
 │ (Donor Dashboard)    │ │ (Receiver Interface)  │
 └──────────┬────────────┘ └──────────┬────────────┘
-
            │                         │
            ▼                         ▼
-           
 ┌───────────────────────┐ ┌───────────────────────┐
 │     Donation         │ │       Request         │
 │ (Donation Model)     │ │ (Request Model)       │
 └──────────┬────────────┘ └──────────┬────────────┘
-
            │                         │
            ▼                         ▼
-           
 ┌───────────────────────┐ ┌───────────────────────┐
 │   AdminPanel         │ │  UrgentRequestPanel   │
 │ (Admin Dashboard)    │ │ (Priority System)     │
