@@ -60,7 +60,7 @@ Key improvements:
 5. Added technical implementation table
 6. Included workflow examples
 7. Enhanced future roadmap section
-
+Frontend and Backend files
 1. File Name            | Type       | Role / Description
 
 2. Main.java            | Frontend   | Starts the app, opens AuthFrame
